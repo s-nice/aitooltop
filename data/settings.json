@@ -3,8 +3,8 @@
   "homeUrl": "https://nav3.cn",
   "language": "zh-CN",
   "loading": "loading4",
-  "showGithub": true,
-  "title": "聚合AI- AI工具导航网站",
+  "showGithub": false,
+  "title": "聚合AI",
   "description": "聚合AI - 精选AI实用工具",
   "keywords": "AI,AI工具,AI工具导航,设计师,实用工具,学习资源,运营,网络安全,node.js",
   "theme": "Light",
@@ -29,7 +29,7 @@
   ],
   "simThemeDesc": "这里收录多达 <b>${total}</b> 个优质网站， 助您工作、学习和生活",
   "simThemeHeight": 350,
-  "simThemeAutoplay": true,
+  "simThemeAutoplay": false,
   "sideThemeImages": [
     {
       "src": "https://cdn.jsdelivr.net/gh/xjh22222228/nav@image/nav-1637490885331-ChMkKWF4tn6IeIGwAD5r3l1JSDcAAU-5QFAFu4APmv2924.jpeg",
@@ -55,7 +55,7 @@
       "height": null
     }
   ],
-  "showLanguage": true,
-  "showRate": true,
+  "showLanguage": false,
+  "showRate": false,
   "mirrorList": []
 }
