@@ -4176,7 +4176,8 @@
     box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.64), 0 3px 6px 0 rgba(0, 0, 0, 0.48), 0 5px 12px 4px rgba(0, 0, 0, 0.36);
   }
   .ant-card-bordered {
-    border: 1px solid #303030;
+    //border: 1px solid #303030;
+    border: 1px solid rgba(136, 136, 136, .1);
   }
   .ant-card-head {
     min-height: 48px;
@@ -4313,7 +4314,8 @@
     padding: 0;
     list-style: none;
     background: #141414;
-    border-top: 1px solid #303030;
+    //border-top: 1px solid #303030;
+    border-top: 1px solid rgba(136, 136, 136, .1);
   }
   .ant-card-actions::before {
     display: table;
