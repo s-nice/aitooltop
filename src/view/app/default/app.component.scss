@@ -93,7 +93,7 @@ $bg-color: #fbfbfb;
       white-space: nowrap;
       overflow: auto;
       box-shadow: 0 0 3px #ccc;
-      .children-nav::-webkit-scrollbar{ display:none }
+
       a {
         position: relative;
         display: inline-block;
@@ -116,6 +116,8 @@ $bg-color: #fbfbfb;
         background: #20a0ff;
       }
     }
+
+    .children-nav::-webkit-scrollbar{ display:none }
 
     li {
       margin-bottom: 10px;
