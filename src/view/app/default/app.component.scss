@@ -93,7 +93,7 @@ $bg-color: #fbfbfb;
       white-space: nowrap;
       overflow: auto;
       box-shadow: 0 0 3px #ccc;
-
+      .children-nav::-webkit-scrollbar{ display:none }
       a {
         position: relative;
         display: inline-block;
@@ -107,9 +107,9 @@ $bg-color: #fbfbfb;
       .active::after {
         content: "";
         position: absolute;
-        bottom: 5px;
+        bottom: 0px;
         left: 50%;
-        width: 50%;
+        width: 80%;
         transform: translateX(-50%);
         height: 3px;
         border-radius: 2px;
@@ -135,13 +135,18 @@ $bg-color: #fbfbfb;
     }
 
     .desc {
-      padding: 10px;
+      padding: 10px 10px 0 10px;
       border-top: 1px solid #eee;
       margin-top: 8px;
       word-break: break-all;
       word-wrap: break-word;
       white-space: pre-wrap;
       font-size: 12px;
+
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
     }
 
     .block-title {
