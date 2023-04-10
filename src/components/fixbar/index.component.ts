@@ -1,7 +1,7 @@
 // Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
 // See https://github.com/xjh22222228/nav
 
-import { Component, Output, EventEmitter, Directive, ElementRef, HostListener,Input, ChangeDetectionStrategy } from '@angular/core'
+import { Component, Output, EventEmitter, Input, ChangeDetectionStrategy } from '@angular/core'
 import { isDark as isDarkFn, randomBgImg, queryString } from '../../utils'
 import { NzModalService } from 'ng-zorro-antd/modal'
 import { NzMessageService } from 'ng-zorro-antd/message'
@@ -20,35 +20,6 @@ import mitt from 'src/utils/mitt'
   styleUrls: ['./index.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-
-@Directive({
-  selector: '[qrcode]'
-})
-
-export class QrcodeDirective {
-  private qrcodeImg: any;
-
-  constructor(private el: ElementRef) {}
-
-  @Input() qrcodeUrl: string;
-
-  @HostListener('mouseenter') onMouseEnter() {
-    this.qrcodeImg = document.createElement('img');
-    this.qrcodeImg.src = this.qrcodeUrl;
-    this.qrcodeImg.style.position = 'absolute';
-    this.qrcodeImg.style.top = this.el.nativeElement.offsetTop + 'px';
-    this.qrcodeImg.style.left = (this.el.nativeElement.offsetLeft + this.el.nativeElement.offsetWidth) + 'px';
-    document.body.appendChild(this.qrcodeImg);
-  }
-
-  @HostListener('mouseleave') onMouseLeave() {
-    if (this.qrcodeImg) {
-      document.body.removeChild(this.qrcodeImg);
-      this.qrcodeImg = null;
-    }
-  }
-}
-
 export class FixbarComponent {
   @Input() showCollapse: boolean = true
   @Input() collapsed: boolean

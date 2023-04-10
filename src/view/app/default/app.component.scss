@@ -134,12 +134,13 @@ $bg-color: #fbfbfb;
       overflow: hidden;
       text-overflow: ellipsis;
       vertical-align: middle;
+      font-weight: bold;
     }
 
     .desc {
-      padding: 10px 10px 0 10px;
-      border-top: 1px solid #eee;
-      margin-top: 8px;
+      padding: 0px 10px 0 10px;
+      //border-top: 1px solid #eee;
+      //margin-top: 8px;
       word-break: break-all;
       word-wrap: break-word;
       white-space: pre-wrap;
@@ -180,7 +181,7 @@ $bg-color: #fbfbfb;
       margin: 12px;
       border: 1px solid #eee;
       overflow: hidden;
-
+      background: #F9FAFC;
       &:nth-child(odd) {
         margin-right: 6px;
       }
