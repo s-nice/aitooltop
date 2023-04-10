@@ -5,6 +5,7 @@ import { Router, ActivatedRoute } from '@angular/router'
 import { queryString, fuzzySearch, matchCurrentList } from '../../../utils'
 import { INavProps, INavThreeProp } from '../../../types'
 import { websiteList, settings } from '../../../store'
+import { isLogin } from '../../../utils/user'
 
 @Component({
   selector: 'app-home',
@@ -16,6 +17,7 @@ export default class WebpComponent {
   currentList: INavThreeProp[] = []
   id: number = 0
   page: number = 0
+  isLogin = isLogin
   open: boolean = false
   LOGO_CDN = settings.favicon
 

@@ -12,7 +12,8 @@
       <div 
         *ngFor="let item of websiteList; let i = index;" 
         (click)="handleCilckNav(i)" 
-        [class.active]="page === i" 
+        [class.active]="page === i"
+        [class.remove]="!isLogin && item.ownVisible"
         class="nav-title"
       >
         {{ item.title }}
