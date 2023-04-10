@@ -8,16 +8,7 @@
     </app-fixbar>
 
     <nav class="top-nav user-select-none dark-border-color dark-bg">
-      <a 
-        *ngFor="let item of websiteList; index as i;" 
-        (click)="handleCilckTopNav(i)" 
-        [class.active]="page === i" 
-        [class.dark-text-active]="page === i" 
-        [class.remove]="!isLogin && item.ownVisible"
-        class="ripple-btn dark-text"
-      >
-        {{ item.title }}
-      </a>
+      聚合AI juhe.ai
     </nav>
 
     <section class="index-section user-select-none dark-bg">
