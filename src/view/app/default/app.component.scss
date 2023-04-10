@@ -1,9 +1,10 @@
-$bg-color: #fbfbfb;
+$bg-color: #fff;
 
 .app-page {
   padding: 45px 0;
   min-height: 100vh;
-  background: #f6f6f6;
+  //background: #f6f6f6;
+  background: rgb(134,217,145);
 
   .header {
     z-index: 9999;;
@@ -180,6 +181,7 @@ $bg-color: #fbfbfb;
       width: calc(50% - 18px);
       margin: 12px;
       border: 1px solid #eee;
+      border-radius: 5px;
       overflow: hidden;
       background: #F9FAFC;
       &:nth-child(odd) {
