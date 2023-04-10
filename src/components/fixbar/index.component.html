@@ -48,6 +48,16 @@
     </div>
   </span>
 
+  <span nz-tooltip [nzTooltipTitle]="$t('_addData')">
+    <div class="wrapper dark-bg dark-border-color dark-action-hover">
+      <i class="fa fa-info-circle" ngbTooltip="Click for more info" [ngbTooltipTemplate]="imageTemplate"></i>
+    </div>
+  </span>
+
+  <ng-template #imageTemplate>
+    <img src="http://img3.256s.com/1629018970849533.jpg" alt="Image">
+  </ng-template>
+
   <div *ngIf="settings.mirrorList.length > 0">
     <div
       class="wrapper dark-bg dark-border-color dark-action-hover"
