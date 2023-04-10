@@ -4,7 +4,7 @@ $bg-color: #fff;
   padding: 45px 0;
   min-height: 100vh;
   //background: #f6f6f6;
-  background: linear-gradient(100deg, #6FD491, #F3EF8B);
+  background: linear-gradient(120deg, #6FD491, #F3EF8B 30%, #6FD491 60%,#F3EF8B);
 
   .header {
     z-index: 9999;;
@@ -80,7 +80,7 @@ $bg-color: #fff;
       &:active,
       &.active {
         //background: rgba(0, 0, 0, .05);
-        color: #20a0ff;
+        color: #4D6BFF;
       }
     }
   }
