@@ -32,6 +32,7 @@ export class FixbarComponent {
   websiteList = websiteList
   isDark: boolean = isDarkFn()
   syncLoading = false
+  showImage = false
   isLogin = !!getToken()
   themeList = [
     {
