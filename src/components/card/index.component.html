@@ -15,7 +15,7 @@
       >
       </nz-rate>
     </div>
-    <a [href]="dataSource.url" target="_blank" rel="noreferer noopener">
+    <a nz-tooltip [nzTooltipTitle]="dataSource.url" [href]="dataSource.url" target="_blank" rel="noreferer noopener">
       <nz-card-meta
         [nzTitle]="title"
         [nzAvatar]="avatarTemplate"
