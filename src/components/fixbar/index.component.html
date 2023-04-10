@@ -48,11 +48,11 @@
     </div>
   </span>
 
-  <span *ngIf="isLogin" nz-tooltip [nzTooltipTitle]="$t('_addData')">
+  <span nz-tooltip>
     <div class="wrapper dark-bg dark-border-color dark-action-hover" (mouseenter)="showImage=true" (mouseleave)="showImage=false">
       <i class="iconfont iconchuangjian"></i>
+      <img *ngIf="showImage" src="http://img3.256s.com/1629018970849533.jpg">
     </div>
-    <img *ngIf="showImage" src="http://img3.256s.com/1629018970849533.jpg">
   </span>
 
   <div *ngIf="settings.mirrorList.length > 0">
