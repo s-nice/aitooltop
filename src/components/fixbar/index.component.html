@@ -1,4 +1,5 @@
 <div class="fixbar">
+  <!--
   <div
     class="wrapper dark-bg dark-border-color dark-action-hover"
     nz-dropdown
@@ -18,6 +19,7 @@
       </li>
     </ul>
   </nz-dropdown-menu>
+  -->
 
   <span *ngIf="isLogin" nz-tooltip [nzTooltipTitle]="$t('_syncData')">
     <div
@@ -46,6 +48,13 @@
       <i class="iconfont icondark dark" *ngIf="!isDark"></i>
       <img class="iconfont icondark" src="assets/img/light.svg" *ngIf="isDark">
     </div>
+  </span>
+
+  <span>
+    <div class="wrapper dark-bg dark-border-color dark-action-hover" (mouseenter)="showQRCode = true" (mouseleave)="showQRCode = false">
+      <i class="iconfont iconchuangjian"></i>
+    </div>
+    <img *ngIf="showQRCode" src="http://img3.256s.com/1629018970849533.jpg" style="position: absolute; top: 0; left: 50px;">
   </span>
 
   <div *ngIf="settings.mirrorList.length > 0">
