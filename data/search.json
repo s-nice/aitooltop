@@ -46,7 +46,7 @@
   {
     "name": "抖音",
     "url": "https://www.douyin.com/search/",
-    "icon": "http://img3.256s.com/1656484403931399.jpg",
+    "icon": "https://lf1-cdn-tos.bytegoofy.com/goofy/ies/douyin_web/public/favicon.ico",
     "placeholder": "抖音搜索",
     "blocked": false,
     "isInner": false

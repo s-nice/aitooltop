@@ -5,13 +5,13 @@
   "loading": "loading4",
   "showGithub": false,
   "title": "聚合AI",
-  "description": "聚合AI - 精选AI实用工具",
-  "keywords": "AI,AI工具,AI工具导航,设计师,实用工具,学习资源,运营,网络安全,node.js",
+  "description": "聚合AI - AI聚合工具箱",
+  "keywords": "AI,AI工具,AI导航,ChatGPT,Midjourney,AI绘画,AI聊天,AI资源,AI学习",
   "theme": "Light",
   "appTheme": "App",
   "footerContent": "<div style=\"font-weight: bold;\">共收录${total}个网站</div><div>Copyright © 2023 juhe.ai, All Rights Reserved</div>",
   "iconfontUrl": "//at.alicdn.com/t/font_2522843_wl70o31sy6.js",
-  "baiduStatisticsUrl": "https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba",
+  "baiduStatisticsUrl": "https://hm.baidu.com/hm.js?8207e4f9b549cd8ea1be29dfc872cfac",
   "cnzzStatisticsUrl": "",
   "simThemeImages": [
     {
