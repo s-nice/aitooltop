@@ -35,7 +35,6 @@
       class="ripple-btn dark-text"
       (click)="handleCilckTopNav(i)" 
     >
-      <i nz-icon [nzIconfont]="item.icon" *ngIf="item.icon"></i>
       {{ item.title }}
     </a>
   </nav>
@@ -51,6 +50,7 @@
           [class.remove]="!isLogin && item.ownVisible"
           class="ripple-btn dark-text"
         >
+          <i nz-icon [nzIconfont]="item.icon" *ngIf="item.icon"></i>
           {{ item.title }}
         </div>
       </div>
