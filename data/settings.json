@@ -10,7 +10,7 @@
   "theme": "Light",
   "appTheme": "App",
   "footerContent": "<div style=\"font-weight: bold;\">共收录${total}个网站</div><div>Copyright © 2023 juhe.ai, All Rights Reserved</div>",
-  "iconfontUrl": "https://at.alicdn.com/t/c/font_4018106_d2k6evf1tkm.js",
+  "iconfontUrl": "https://juhe.ai/assets/js/icon.js",
   "baiduStatisticsUrl": "https://hm.baidu.com/hm.js?8207e4f9b549cd8ea1be29dfc872cfac",
   "cnzzStatisticsUrl": "",
   "simThemeImages": [
