@@ -110,11 +110,11 @@
   }
   .sidebar::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    opacity: 0.2;
     background: #ABE18D;
   }
-  .dark-container .dark-border-color::-webkit-scrollbar-thumb {
-    background-color: #3a3737;
+  .dark-container .sidebar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #3a3737;
   }
 
   .main {
