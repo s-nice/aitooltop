@@ -68,6 +68,7 @@ export class SearchEngineComponent {
   triggerSearch() {
     if (this.currentEngine.url) {
       window.open(this.currentEngine.url + this.keyword)
+      return;
     }
     
     const params = queryString()
