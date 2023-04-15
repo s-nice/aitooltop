@@ -77,7 +77,7 @@
 
       &.active {
         color: #1890ff;
-
+        background-color: #eee;
         div:after {
           top: 0;
           border-top: 1px dashed #ccc;
@@ -85,10 +85,10 @@
 
         div:before {
           bottom: 0;
-          border-bottom: 1px dashed #ccc;
+          border-bottom: 1px solid #ccc;
         }
       }
-
+      /*
       div {
         display: block;
         padding: 11px 0;
@@ -100,6 +100,7 @@
           width: 100%;
         }
       }
+      */
     }
   }
 
