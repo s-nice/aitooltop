@@ -13544,7 +13544,8 @@
     flex-direction: column;
     /* fix firefox can't set height smaller than content on flex item */
     min-height: 0;
-    background: #000;
+    //background: #000;
+    background: #1b1d1f;
   }
   .ant-layout,
   .ant-layout * {
@@ -14882,7 +14883,7 @@
     line-height: 0;
     text-align: left;
     list-style: none;
-    background: #141414;
+    background: #1b1d1f;
     outline: none;
     box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.48), 0 6px 16px 0 rgba(0, 0, 0, 0.32), 0 9px 28px 8px rgba(0, 0, 0, 0.2);
     transition: background 0.3s, width 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
