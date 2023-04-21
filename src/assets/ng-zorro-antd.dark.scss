@@ -12845,8 +12845,9 @@
   }
   .ant-input-group-addon .ant-select.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
     background-color: inherit;
-    border: 1px solid transparent;
+    //border: 1px solid transparent;
     box-shadow: none;
+    border: none;
   }
   .ant-input-group-addon .ant-select-open .ant-select-selector,
   .ant-input-group-addon .ant-select-focused .ant-select-selector {
