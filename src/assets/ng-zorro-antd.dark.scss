@@ -4313,7 +4313,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    background: #141414;
+    background: #2c2e2f;
     //border-top: 1px solid #303030;
     border-top: 1px solid rgba(136, 136, 136, .1);
   }
@@ -4373,7 +4373,7 @@
     line-height: 22px;
   }
   .ant-card-actions > li:not(:last-child) {
-    border-right: 1px solid #303030;
+    border-right: 1px solid #4a4848;
   }
   .ant-card-type-inner .ant-card-head {
     padding: 0 24px;
@@ -13567,7 +13567,7 @@
     padding: 0 50px;
     color: rgba(255, 255, 255, 0.85);
     line-height: 64px;
-    background: #1f1f1f;
+    background: #1b1d1f;
   }
   .ant-layout-footer {
     padding: 24px 50px;
@@ -15109,7 +15109,7 @@
     left: -7px;
   }
   .ant-menu-submenu > .ant-menu {
-    background-color: #141414;
+    background-color: #1b1d1f;
     border-radius: 2px;
   }
   .ant-menu-submenu > .ant-menu-submenu-title::after {
