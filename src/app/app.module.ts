@@ -74,6 +74,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LogoComponent } from '../components/logo/logo.component';
 import { CardComponent } from '../components/card/index.component'
 import { MoveSiteComponent } from '../components/move-site/index.component'
+import { ArticleComponent } from '../components/article/article.component'
 
 const appRoutes: Routes = [
   { 
