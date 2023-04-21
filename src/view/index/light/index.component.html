@@ -38,8 +38,13 @@
 
       <div class="main dark-scrollbar">
         <app-search-engine></app-search-engine>
- 
-        <div *ngIf="currentList.length > 0; else noData">
+
+        <div *ngIf="a > 0 && currentList.length > 0; else noData">
+          <app-article></app-article>
+        </div>
+
+
+        <div *ngIf="a==0 && currentList.length > 0; else noData">
           <div *ngFor="let item of currentList.slice(0, sliceMax); index as i" [class.remove]="!isLogin && item.ownVisible">
             <app-toolbar-title
               [dataSource]="item"

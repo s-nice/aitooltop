@@ -29,6 +29,7 @@ export default class LightComponent {
   currentList: INavThreeProp[] = []
   id: number = 0
   page: number = 0
+  a: number = 0
   isLogin = isLogin
   sliceMax = 1
 
