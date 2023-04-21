@@ -96,3 +96,7 @@ $width: 500px;
     width: 90vw !important;
   }
 }
+
+.ant-input-group-addon .ant-select.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  border: none;
+}
