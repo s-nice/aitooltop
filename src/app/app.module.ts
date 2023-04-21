@@ -183,7 +183,8 @@ const appRoutes: Routes = [
     WebListComponent,
     LogoComponent,
     CardComponent,
-    MoveSiteComponent
+    MoveSiteComponent,
+    ArticleComponent
   ],
   imports: [
     NzModalModule,
