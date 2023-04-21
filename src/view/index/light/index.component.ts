@@ -37,9 +37,10 @@ export default class LightComponent {
     randomBgImg()
 
     this.activatedRoute.queryParams.subscribe(() => {
-      const { id, page, q } = queryString()
+      const { id, page, q, a } = queryString()
       this.page = page
       this.id = id
+      this.a = a
       this.sliceMax = 1
       if (q) {
         this.currentList = fuzzySearch(this.websiteList, q)
