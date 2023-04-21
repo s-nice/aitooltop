@@ -32,7 +32,7 @@
       <i class="search-icon iconfont iconsousuo dark-text" (click)="triggerSearch()"></i>
     </ng-template>
     <ng-template #addOnBeforeTemplate>
-      <nz-select style="border: none" [(ngModel)]="searchTypeValue" *ngIf="!currentEngine.url">
+      <nz-select [(ngModel)]="searchTypeValue" *ngIf="!currentEngine.url">
         <nz-option [nzLabel]="$t('_default')" [nzValue]="SearchType.All"></nz-option>
         <nz-option [nzLabel]="$t('_title')" [nzValue]="SearchType.Title"></nz-option>
         <nz-option [nzLabel]="$t('_desc')" [nzValue]="SearchType.Desc"></nz-option>
