@@ -5,10 +5,10 @@ import { $t } from 'src/locale';
 
 @Component({
   selector: 'app-article',
-  templateUrl: './article.component.html',
-  styleUrls: ['./article.component.scss']
+  templateUrl: './index.component.html',
+  styleUrls: ['./index.component.scss']
 })
-export class NoDataComponent {
+export class ArticleComponent {
   $t = $t
 
   goBack = () => {
