@@ -45,7 +45,7 @@ export default class WebpComponent {
   }
 
   search() {
-    if(!this.searchKeyword){
+    if(!this.searchKeyword.trim()){
       return;
     }
     this.currentList = fuzzySearch(this.websiteList, this.searchKeyword)
