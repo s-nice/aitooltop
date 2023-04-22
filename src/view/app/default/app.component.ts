@@ -32,6 +32,8 @@ export default class WebpComponent {
       this.id = id
       if (a) {
         this.a = a
+      } else if (page==9) {
+        this.a = 313
       } else if (q) {
         this.a=0
         this.currentList = fuzzySearch(this.websiteList, q)
