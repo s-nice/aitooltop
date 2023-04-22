@@ -1,7 +1,13 @@
 <section class="app-page user-select-none">
   <header class="header">
     <div class="header-top">
+      <!--
       <img [src]="LOGO_CDN" class="logo" alt="logo">
+      -->
+        <div class="search-box">
+            <input type="text" class="search-input" placeholder="请输入关键词" [(ngModel)]="searchKeyword">
+            <button class="search-btn" (click)="search()">搜索</button>
+        </div>
       <div class="open" [class.active]="open" (click)="handleToggleOpen()">
         <i></i>
         <i></i>
@@ -9,9 +15,9 @@
       </div>
     </div>
     <nav class="nav-open">
-      <div 
-        *ngFor="let item of websiteList; let i = index;" 
-        (click)="handleCilckNav(i)" 
+      <div
+        *ngFor="let item of websiteList; let i = index;"
+        (click)="handleCilckNav(i)"
         [class.active]="page === i"
         [class.remove]="!isLogin && item.ownVisible"
         class="nav-title"
@@ -20,13 +26,13 @@
       </div>
     </nav>
   </header>
-  
-  <div class="wrapper" *ngIf="websiteList[page]">
+
+  <div class="wrapper" *ngIf="websiteList[page] && !a else article">
     <nav class="children-nav" *ngIf="websiteList[page].nav.length > 1">
       <a
-        class="tag" 
-        *ngFor="let item of websiteList[page].nav; let i = index" 
-        [class.active]="id === i" 
+        class="tag"
+        *ngFor="let item of websiteList[page].nav; let i = index"
+        [class.active]="id === i"
         (click)="handleSidebarNav(i)"
       >
         {{ item.title }}
@@ -47,13 +53,19 @@
                   [size]="30"
                 >
                 </app-logo>
-                <em class="name" [title]="el.name">{{ el.name }}</em>
+                <em class="name" [title]="el.name" [innerHTML]="el.name"></em>
               </div>
-              <pre class="desc" [title]="el.desc">{{ el.desc }}</pre>
+              <pre class="desc" [title]="el.desc" [innerHTML]="el.desc"></pre>
             </a>
           </div>
         </div>
       </li>
     </ul>
   </div>
+
+  <ng-template #article>
+    <div class="wrapper" style="background: #fff">
+    <app-article [a]="a" *ngIf="a>0"></app-article>
+    </div>>
+  </ng-template>
 </section>

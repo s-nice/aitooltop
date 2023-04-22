@@ -20,20 +20,30 @@ export default class WebpComponent {
   isLogin = isLogin
   open: boolean = false
   LOGO_CDN = settings.favicon
+  a: number = 0
+  searchKeyword: string = ''
 
   constructor (private router: Router, private activatedRoute: ActivatedRoute) {}
 
   ngOnInit () {
     this.activatedRoute.queryParams.subscribe(() => {
-      const { page, id, q } = queryString()
+      const { page, id, q, a } = queryString()
       this.page = page
       this.id = id
-      if (q) {
+      if (a) {
+        this.a = a
+      } else if (q) {
+        this.a=0
         this.currentList = fuzzySearch(this.websiteList, q)
       } else {
+        this.a=0
         this.currentList = matchCurrentList()
       }
     })
+  }
+
+  search() {
+    this.currentList = fuzzySearch(this.websiteList, this.searchKeyword)
   }
 
   handleSidebarNav (index) {

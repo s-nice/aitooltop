@@ -27,7 +27,7 @@ export function fuzzySearch(navList: INavProps[], keyword: string): INavThreePro
   }
 
   const { type, page, id } = queryString()
-  const sType = Number(type) || SearchType.Title
+  const sType = Number(type)
   const navData = []
   const resultList = [{ nav: navData }]
   const urlRecordMap = {}
