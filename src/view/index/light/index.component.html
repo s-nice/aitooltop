@@ -37,14 +37,9 @@
       </aside>
 
       <div class="main dark-scrollbar">
-        <app-search-engine></app-search-engine>
+        <app-search-engine *ngIf="!a"></app-search-engine>
 
-        <div *ngIf="a > 0">
-          <app-article></app-article>
-        </div>
-
-
-        <div *ngIf="currentList.length > 0; else noData">
+        <div *ngIf="currentList.length > 0 && !a; else article">
           <div *ngFor="let item of currentList.slice(0, sliceMax); index as i" [class.remove]="!isLogin && item.ownVisible">
             <app-toolbar-title
               [dataSource]="item"
@@ -71,7 +66,11 @@
             </div>
           </div>
         </div>
-        
+
+        <ng-template #article>
+          <app-article [a]="a" *ngIf="a>0; else noData"></app-article>
+        </ng-template>
+
         <ng-template #noData>
           <app-no-data></app-no-data>
         </ng-template>
