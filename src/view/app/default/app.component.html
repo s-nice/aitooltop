@@ -33,6 +33,7 @@
         class="tag"
         *ngFor="let item of websiteList[page].nav; let i = index"
         [class.active]="id === i"
+        [class.remove]="!isLogin && item.ownVisible"
         (click)="handleSidebarNav(i)"
       >
         {{ item.title }}
