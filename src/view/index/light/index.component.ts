@@ -44,8 +44,10 @@ export default class LightComponent {
       if (a) {
         this.a = a
       } else if (q) {
+        this.a=0
         this.currentList = fuzzySearch(this.websiteList, q)
       } else {
+        this.a=0
         this.currentList = matchCurrentList()
       }
       setTimeout(() => {
