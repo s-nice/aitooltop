@@ -75,7 +75,7 @@ export class SearchEngineComponent {
     this.router.navigate([this.router.url.split('?')[0]], {
       queryParams: {
         ...params,
-        q: this.keyword,
+        q: this.keyword.trim(),
         type: this.searchTypeValue
       }
     })

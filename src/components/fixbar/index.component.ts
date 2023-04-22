@@ -50,10 +50,6 @@ export class FixbarComponent {
     {
       name: $t('_switchTo') + ' Shortcut',
       url: '/shortcut'
-    },
-    {
-      name: $t('_switchTo') + ' App',
-      url: '/app'
     }
   ]
 
