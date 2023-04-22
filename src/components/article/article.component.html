@@ -1,2 +1,2 @@
 <h1 class="title">{{ article?.title }}</h1>
-<div class="content" [innerHTML]="article?.content"></div>
+<div class="content" [innerHTML]="sanitizer.bypassSecurityTrustHtml(article?.content)"></div>

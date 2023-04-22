@@ -40,9 +40,10 @@ export default class LightComponent {
       const { id, page, q, a } = queryString()
       this.page = page
       this.id = id
-      this.a = a
       this.sliceMax = 1
-      if (q) {
+      if (a) {
+        this.a = a
+      } else if (q) {
         this.currentList = fuzzySearch(this.websiteList, q)
       } else {
         this.currentList = matchCurrentList()
