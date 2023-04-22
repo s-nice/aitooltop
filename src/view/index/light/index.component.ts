@@ -45,6 +45,7 @@ export default class LightComponent {
         this.a = a
       } else if (page==9) {
         this.a = 313
+        this.id = 0
       } else if (q) {
         this.a=0
         this.currentList = fuzzySearch(this.websiteList, q)
