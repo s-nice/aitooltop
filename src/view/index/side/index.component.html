@@ -23,7 +23,7 @@
             <li
               nz-menu-item
               *ngFor="let el of item.nav; let idIdx = index;"
-              [class.remove]="!isLogin && item.ownVisible"
+              [class.remove]="!isLogin && el.ownVisible"
               [nzSelected]="page === pageIdx && id === idIdx"
               (click)="handleSidebarNav(pageIdx, idIdx)" 
             >
