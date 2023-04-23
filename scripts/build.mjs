@@ -43,7 +43,6 @@ const authorName = s[s.length - 2]
 const repoName = s[s.length - 1]
 
 const htmlTemplate = `
-  <!-- https://github.com/xjh22222228/nav -->
   <title>${title}</title>
   <meta name="description" content="${description}">
   <meta name="keywords" content="${keywords}">
@@ -70,7 +69,7 @@ ${cnzzScript}
 `.trim()
 
 let seoTemplate = `
-<div data-url="https://github.com/xjh22222228/nav" style="z-index:-1;position:fixed;top:-10000vh;left:-10000vh;">
+<div style="z-index:-1;position:fixed;top:-10000vh;left:-10000vh;">
 `
 
 async function buildSeo() {
