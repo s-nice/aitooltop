@@ -43,7 +43,7 @@ export default class LightComponent {
       this.sliceMax = 1
       if (a) {
         this.a = a
-      } else if (page==9) {
+      } else if (page==5 && !id) {
         this.a = 313
         this.id = 0
       } else if (q) {
