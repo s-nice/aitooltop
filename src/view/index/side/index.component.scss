@@ -68,7 +68,7 @@ $sideWidth: 200px;
   left: 0;
   width: $sideWidth;
   padding: 20px 10px 10px 40px;
-  //background-color: #fff;
+  background-color: #fff;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -85,6 +85,10 @@ $sideWidth: 200px;
     margin-left: 10px;
     vertical-align: middle;
   }
+}
+
+.dark-container .logo{
+  background-color: #2c2e2f
 }
 
 .sider {
