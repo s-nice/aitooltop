@@ -20,6 +20,9 @@
     background-color: #000;
     font-feature-settings: 'tnum';
   }
+  .logo{
+    background-color: #2c2e2f;
+  }
   [tabindex='-1']:focus {
     outline: none !important;
   }
@@ -13551,9 +13554,6 @@
   .ant-layout,
   .ant-layout * {
     box-sizing: border-box;
-  }
-  .logo{
-    background-color: #2c2e2f;
   }
   .ant-layout.ant-layout-has-sider {
     flex-direction: row;
