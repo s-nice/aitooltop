@@ -13552,9 +13552,6 @@
   .ant-layout * {
     box-sizing: border-box;
   }
-  .logo{
-    background-color: #2c2e2f;
-  }
   .ant-layout.ant-layout-has-sider {
     flex-direction: row;
   }
@@ -25503,4 +25500,8 @@
   .cdk-overlay-backdrop.ant-image-preview-mask {
     opacity: 1;
   }
+}
+
+.dark-container .ant-layout .logo{
+  background-color: #2c2e2f;
 }
