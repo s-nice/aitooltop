@@ -1,6 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
-
 import { getCDN } from '../services'
 
 export const DB_PATH = 'data/db.json'

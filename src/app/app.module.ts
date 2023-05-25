@@ -1,6 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
-
 import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core'
 import { RouterModule, Routes } from '@angular/router'
