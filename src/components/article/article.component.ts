@@ -1,5 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-
 import { Component, OnInit, Input } from '@angular/core'
 import { ActivatedRoute } from '@angular/router';
 import { ArticleService } from '../../services/article';

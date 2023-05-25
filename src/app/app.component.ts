@@ -8,7 +8,7 @@ import { verifyToken } from 'src/services'
 import { getToken, removeToken } from 'src/utils/user'
 
 @Component({
-  selector: 'app-xiejiahe',
+  selector: 'app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })

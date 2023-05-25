@@ -1,5 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-
 import { annotate } from 'rough-notation'
 import { queryString } from './index'
 import { websiteList } from '../store'
