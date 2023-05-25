@@ -47,7 +47,6 @@ import AdminComponent from '../view/admin/index.component'
 import SystemComponent from '../view/system/index.component'
 import SystemInfoComponent from '../view/system/info/index.component'
 import SystemBookmarkComponent from '../view/system/bookmark/index.component'
-import SystemAboutComponent from '../view/system/about/index.component'
 import SystemTagComponent from '../view/system/tag/index.component'
 import SystemSearchComponent from '../view/system/search/index.component'
 import SystemSettingComponent from '../view/system/setting/index.component'
@@ -117,10 +116,6 @@ const appRoutes: Routes = [
         component: SystemBookmarkComponent
       },
       {
-        path: 'about',
-        component: SystemAboutComponent
-      },
-      {
         path: 'tag',
         component: SystemTagComponent
       },
@@ -163,7 +158,6 @@ const appRoutes: Routes = [
     SystemComponent,
     SystemInfoComponent,
     SystemBookmarkComponent,
-    SystemAboutComponent,
     SystemTagComponent,
     SystemSearchComponent,
     SystemSettingComponent,
