@@ -6,7 +6,6 @@
           <ul>
             <li nz-menu-item [nzSelected]="currentMenu === 'web'" (click)="goRoute('/system/web')">{{ $t('_websiteMang') }}</li>
             <li nz-menu-item [nzSelected]="currentMenu === 'tag'" (click)="goRoute('/system/tag')">{{ $t('_tagSettings') }}</li>
-            <li nz-menu-item [nzSelected]="currentMenu === 'bookmark'" (click)="goRoute('/system/bookmark')">{{ $t('_bookmarkImport') }}</li>
             <li nz-menu-item [nzSelected]="currentMenu === 'search'" (click)="goRoute('/system/search')">{{ $t('_searchEngines') }}</li>
             <li nz-menu-item [nzSelected]="currentMenu === 'setting'" (click)="goRoute('/system/setting')">{{ $t('_systemSet') }}</li>
             <li nz-menu-item [nzSelected]="currentMenu === 'info'" (click)="goRoute('/system/info')">{{ $t('_webInfo') }}</li>
