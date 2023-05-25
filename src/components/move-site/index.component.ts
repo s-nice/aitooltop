@@ -1,6 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
-
 import { Component, Input, Output, EventEmitter } from '@angular/core'
 import { $t } from 'src/locale'
 import { setWebsiteList } from '../../utils'

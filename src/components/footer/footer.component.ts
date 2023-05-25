@@ -1,6 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
-
 import { Component, Input } from '@angular/core'
 import { totalWeb } from '../../utils'
 import { settings } from 'src/store'

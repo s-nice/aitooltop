@@ -1,6 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
-
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core'
 import { INavThreeProp, INavProps, INavFourProp } from '../../types'
 import { NzMessageService } from 'ng-zorro-antd/message'
