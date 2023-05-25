@@ -31,7 +31,7 @@
   {
     "name": "GitHub",
     "url": "https://github.com/search?q=",
-    "icon": "",
+    "icon": "https://raw.sevencdn.com/xjh22222228/nav/image/github.svg",
     "placeholder": "Search GitHub",
     "blocked": false,
     "isInner": false
@@ -39,7 +39,7 @@
   {
     "name": "知乎",
     "url": "https://www.zhihu.com/search?type=content&q=",
-    "icon": "",
+    "icon": "https://raw.sevencdn.com/xjh22222228/nav/image/zhihu.svg",
     "blocked": false,
     "isInner": false
   },
