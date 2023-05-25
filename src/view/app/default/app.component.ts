@@ -1,5 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-
 import { Component } from '@angular/core'
 import { Router, ActivatedRoute } from '@angular/router'
 import { queryString, fuzzySearch, matchCurrentList } from '../../../utils'

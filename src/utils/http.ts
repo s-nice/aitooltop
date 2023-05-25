@@ -1,5 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-
 import axios from 'axios'
 import NProgress from 'nprogress'
 import { getToken } from '../utils/user'

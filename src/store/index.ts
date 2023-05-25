@@ -1,5 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-
 import { websiteList as w } from '../utils'
 import * as __settings from '../../data/settings.json'
 import * as s from '../../data/search.json'
