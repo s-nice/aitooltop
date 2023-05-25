@@ -1,6 +1,3 @@
-// Copyright @ 2018-2022 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
-
 import { Component } from '@angular/core'
 import { $t } from 'src/locale'
 import { getToken } from 'src/utils/user'
